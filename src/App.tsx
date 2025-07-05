@@ -860,7 +860,7 @@ const MentalCheck: React.FC<{
                 transition-all duration-75 hover:translate-x-1 hover:translate-y-1
               `}
             >
-              {mentalState[metric.key]}
+              {String(mentalState[metric.key])}
             </button>
           </div>
         ))}
